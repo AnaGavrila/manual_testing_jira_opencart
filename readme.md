@@ -92,7 +92,16 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 ### 1.5 Test Implementation
 The following elements are needed to be ready before the test execution phase begins:
 
-(inserati lista de elemente care sunt evaluate in etapa de implementare)
+User Registration
+
+Product Search
+
+Checkout Process
+
+Login with Invalid Credentials
+
+Cart Management
+
 
 ### 1.6. Test Execution
 Test cases are executed on the created test Cycle summary: V1
@@ -111,7 +120,10 @@ Full regression testing is needed on the impacted areas after the bugs are fixed
 
 ### 1.7 Test Completion
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
-The traceability matrix was generated and can be found here: (inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)
+The traceability matrix was generated and can be found here:
+
+![image](https://github.com/user-attachments/assets/e83090d2-71c8-4c49-9653-a16b62753884)
+
 
 Test execution chart was generated and can be found below.
 

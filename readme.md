@@ -51,10 +51,26 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.4 Test scope
 **Tests in scope:**
-(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+Returns
+
+Voucher Theme
+
+Gift voucher
+
+Orders
 
 **Tests not in scope:**
-(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+Customers
+
+Marketing
+
+System
+
+Reports
+
+
 
 #### 1.1.5 Risks detected
 **Project risks:**

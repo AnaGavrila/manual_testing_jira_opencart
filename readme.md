@@ -39,11 +39,18 @@ The plan identifies the items to be tested, the features to be tested, the types
 <tr><td>Technical Specifications Available: Detailed technical specifications, including architecture diagrams, data models, and API contracts, are completed.</td></tr>
 <tr><td>Team Trained: The development team has been briefed and trained on the project scope, technology stack, and tools.</td></tr>
 </table>
+
 #### 1.1.3 Exit criteria defined
-(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)
+<table>
+<tr><td>Code Complete: All features planned for the release are developed, and the code is frozen. </td></tr>
+<tr><td>Unit Testing Done: Developers have completed unit testing, and all tests have passed with an acceptable threshold. </td></tr>
+<tr><td>Environment Stable: Test environment is set up, and all components are functioning as expected.</td></tr>
+<tr><td>Test Cases Written: All test cases for the features being tested are written, reviewed, and approved.</td></tr>
+<tr><td>Test Data Prepared: All necessary test data is prepared and validated for use in the testing phase.</td></tr>
+</table>
 
 #### 1.1.4 Test scope
-Tests in scope:
+**Tests in scope:**
 (descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
 
 **Tests not in scope:**
@@ -51,10 +58,21 @@ Tests in scope:
 
 #### 1.1.5 Risks detected
 **Project risks:**
-(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)
+<table>
+<tr><td>Lack of personnel – delays in product delivery. </td></tr>
+<tr><td>Team conflicts – decrease in the quality of work and collaboration. </td></tr>
+<tr><td>Incorrect attitude towards the testing process – insufficient identification of defects. </td></tr>
+<tr><td>Product launch delays – loss of market opportunities.</td></tr>
+<tr><td>Unclear business requirements – development of a product that does not meet user needs.</td></tr>
+</table>
 
 **Product risks:**
-(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)
+<table>
+<tr><td>Low code quality – increase in the number of defects and performance issues. </td></tr>
+<tr><td>Encountering more defects – extending the time required for testing and fixes. </td></tr>
+<tr><td>The application does not function according to business requirements – dissatisfaction among clients and end users.</td></tr>
+<tr><td>Low usability – difficulties in using the application and loss of users. </td></tr>
+</table>
 
 #### 1.1.6 Evaluating entry criteria
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
@@ -94,8 +112,11 @@ Test execution chart was generated and can be found below.
 
 (inserati aici raportul de executie generat din jira din sectiunea de dashboards)
 
-The final report shows that a number (inserati numarul de teste) tests have failed of a total of (inserati numarul de teste)
+The final report shows that a number 6 tests have failed of a total of 10
 
-A number of (inserati numarul de bug-uri) total bugs were found, from which the priority is: (inserati numarul de bug-uri) are high and (inserati numarul de bug-uri) are medium.
+A number of 6 total bugs were found, from which the priority is: 5 are high and 1 is low.
 
-(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)
+In the presented project, we have 3 stories, of which 2 are covered by tests.
+Total number of tests: 10
+Total number of tests executed: 10
+We have identified 6 bugs that could severely affect the user, as they will not allow them to perform certain actions on the platform—actions that depend on the proper functioning of the application for both the client and the user.
